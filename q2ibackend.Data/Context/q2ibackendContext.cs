@@ -15,11 +15,13 @@ namespace q2ibackend.Data.Context
         public virtual DbSet<Endereco> Enderecos { get; set; } = null!;
         public virtual DbSet<Funcionario> Funcionarios { get; set; } = null!;
         public virtual DbSet<Telefone> Telefones { get; set; } = null!;
+        public virtual DbSet<Usuario> Usuarios { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=./Database/q2i.db;");
         }
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Cargo>(entity =>
@@ -57,10 +59,12 @@ namespace q2ibackend.Data.Context
                 entity.Property(e => e.IdCargo).HasColumnName("Id_Cargo");
                 entity.Property(e => e.IdEmpresa).HasColumnName("Id_Empresa");
                 entity.Property(e => e.Nome).HasColumnType("TEXT(200)");
-                entity.Property(e => e.Salario).HasColumnType("NUMERIC");
                 entity.HasOne(d => d.IdCargoNavigation)
                     .WithMany(p => p.Funcionarios)
                     .HasForeignKey(d => d.IdCargo);
+                entity.HasOne(d => d.IdEmpresaNavigation)
+                    .WithMany(p => p.Funcionarios)
+                    .HasForeignKey(d => d.IdEmpresa);
             });
 
             modelBuilder.Entity<Telefone>(entity =>
@@ -68,6 +72,18 @@ namespace q2ibackend.Data.Context
                 entity.ToTable("telefone");
                 entity.HasIndex(e => e.Id, "IX_telefone_Id").IsUnique();
                 entity.Property(e => e.Ddd).HasColumnName("DDD");
+            });
+
+            modelBuilder.Entity<Usuario>(entity =>
+            {
+                entity.ToTable("usuario");
+                entity.HasIndex(e => e.Id, "IX_usuario_Id").IsUnique();
+                entity.HasIndex(e => e.Username, "IX_usuario_Username").IsUnique();
+                entity.Property(e => e.IdFuncionario).HasColumnName("Id_Funcionario");
+                entity.Property(e => e.IsAdmin).HasColumnName("isAdmin");
+                entity.HasOne(d => d.IdFuncionarioNavigation)
+                    .WithMany(p => p.Usuarios)
+                    .HasForeignKey(d => d.IdFuncionario);
             });
 
             OnModelCreatingPartial(modelBuilder);
