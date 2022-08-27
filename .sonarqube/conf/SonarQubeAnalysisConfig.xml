@@ -7,12 +7,12 @@
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>http://10.0.0.10:7200</SonarQubeHostUrl>
   <SonarQubeVersion>9.6.0.59041</SonarQubeVersion>
-  <SonarProjectKey>enriquefiore_q2ibackend_AYLTQ8qd3snx9Cw4_yrJ</SonarProjectKey>
+  <SonarProjectKey>enriquefiore_q2ibackend_AYLcrx-DPLKANltBhq4C</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />
     <ConfigSetting Id="VsCoverageConverterToolPath" />
-    <ConfigSetting Id="settings.file.path" Value="C:\Users\enrique\.dotnet\tools\.store\dotnet-sonarscanner\5.8.0\dotnet-sonarscanner\5.8.0\tools\net5.0\any\SonarQube.Analysis.xml" />
+    <ConfigSetting Id="settings.file.path" Value="D:\_source\sonar-scanner-net5\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
     <Property Name="sonaranalyzer-cs.nuget.packageVersion">8.43.0.51858</Property>
@@ -30,7 +30,7 @@
     <Property Name="sonar.builtInQualityProfiles.disableNotificationOnUpdate">false</Property>
     <Property Name="sonar.css.file.suffixes">.css,.less,.scss</Property>
     <Property Name="sonar.html.file.suffixes">.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml,.cmp,.twig</Property>
-    <Property Name="sonar.auth.gitlab.enabled">true</Property>
+    <Property Name="sonar.auth.gitlab.enabled">false</Property>
     <Property Name="sonar.cpd.cross_project">false</Property>
     <Property Name="sonar.vbnet.ignoreHeaderComments">true</Property>
     <Property Name="sonar.auth.github.groupsSync">false</Property>
@@ -63,7 +63,7 @@
     <Property Name="sonar.dbcleaner.weeksBeforeDeletingAllSnapshots">260</Property>
     <Property Name="sonar.updatecenter.cache.ttl">3600000</Property>
     <Property Name="sonar.auth.bitbucket.allowUsersToSignUp">true</Property>
-    <Property Name="sonar.auth.github.enabled">true</Property>
+    <Property Name="sonar.auth.github.enabled">false</Property>
     <Property Name="sonar.python.coverage.reportPaths">coverage-reports/*coverage-*.xml</Property>
     <Property Name="sonaranalyzer-vbnet.nuget.packageVersion">8.43.0.51858</Property>
     <Property Name="sonar.go.file.suffixes">.go</Property>
@@ -76,7 +76,7 @@
     <Property Name="sonar.auth.gitlab.groupsSync">false</Property>
     <Property Name="sonar.auth.github.apiUrl">https://api.github.com/</Property>
     <Property Name="sonar.ruby.file.suffixes">.rb</Property>
-    <Property Name="sonar.auth.github.allowUsersToSignUp">true</Property>
+    <Property Name="sonar.auth.github.allowUsersToSignUp">false</Property>
     <Property Name="sonar.python.xunit.reportPath">xunit-reports/xunit-result-*.xml</Property>
     <Property Name="sonar.javascript.globals">angular,goog,google,OenLayers,d3,dojo,dojox,dijit,Backbone,moment,casper,_,sap</Property>
     <Property Name="sonar.dbcleaner.hoursBeforeKeepingOnlyOneSnapshotByDay">24</Property>
@@ -97,7 +97,7 @@
     <Property Name="sonar.auth.saml.providerName">SAML</Property>
     <Property Name="sonar.ruby.coverage.reportPaths">coverage/.resultset.json</Property>
     <Property Name="sonaranalyzer-cs.staticResourceName">SonarAnalyzer-8.43.0.51858.zip</Property>
-    <Property Name="sonar.auth.gitlab.allowUsersToSignUp">true</Property>
+    <Property Name="sonar.auth.gitlab.allowUsersToSignUp">false</Property>
     <Property Name="sonaranalyzer-cs.nuget.packageId">SonarAnalyzer.CSharp</Property>
     <Property Name="sonar.authenticator.downcase">false</Property>
     <Property Name="sonaranalyzer-cs.analyzerId">SonarAnalyzer.CSharp</Property>
@@ -108,15 +108,13 @@
     <Property Name="sonar.javascript.file.suffixes">.js,.jsx,.mjs,.vue</Property>
     <Property Name="sonar.vbnet.analyzeGeneratedCode">false</Property>
     <Property Name="sonar.plugins.risk.consent">NOT_ACCEPTED</Property>
-    <Property Name="sonar.auth.gitlab.url">http://10.0.0.10:7080/</Property>
+    <Property Name="sonar.auth.gitlab.url">https://gitlab.com</Property>
     <Property Name="sonaranalyzer-vbnet.pluginKey">vbnet</Property>
     <Property Name="sonar.updatecenter.url">https://update.sonarsource.org/update-center.properties</Property>
-    <Property Name="sonar.core.startTime">24/08/2022 23:50:04</Property>
-    <Property Name="sonar.core.id">147B411E-AYLS6DmX3snx9Cw4_o-b</Property>
+    <Property Name="sonar.core.startTime">26/08/2022 20:40:28</Property>
+    <Property Name="sonar.core.id">243B8A4D-AYLch2SmPLKANltBhhLQ</Property>
   </ServerSettings>
-  <LocalSettings>
-    <Property Name="sonar.host.url">http://10.0.0.10:7200</Property>
-  </LocalSettings>
+  <LocalSettings />
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>

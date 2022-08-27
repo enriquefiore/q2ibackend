@@ -1,10 +1,20 @@
-ï
-PC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\EmpresasController.cs! 8j#56TUcre	 !$%&'()*+-./023789:;<=?ABCDEFGHIJKLMNOQRVWXYZ[\]^`adefghijklmnoqrtuwxyz{|x‚  ')+-/2:<?CGIMQY[]^`giklnqrtyð
-QC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\EnderecosController.cs! 8j#56TUcre	 !$%&'()*+-./023789:;<=?ABCDEFGHIJKLMNOQRVWXYZ[\]^`adefghijklmnoqrtuwxyz{|x‚  ')+-/2:<?CGIMQY[]^`giklnqrtyó
-TC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\FuncionariosController.cs! 8j#56TUcre	 !$%&'()*+-./023789:;<=?ABCDEFGHIJKLMNOQRVWXYZ[\]^`adefghijklmnoqrtuwxyz{|x‚  ')+-/2:<?CGIMQY[]^`giklnqrtyð
-QC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\TelefonesController.cs! 8j#56TUcre	 !$%&'()*+-./023789:;<=?ABCDEFGHIJKLMNOQRVWXYZ[\]^`adefghijklmnoqrtuwxyz{|x‚  ')+-/2:<?CGIMQY[]^`giklnqrtyï
-PC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\UsuariosController.cs! 8j#56TUcre	 !$%&'()*+-./023789:;<=?ABCDEFGHIJKLMNOQRVWXYZ[\]^`adefghijklmnoqrtuwxyz{|x‚  ')+-/2:<?CGIMQY[]^`giklnqrtyŠ
-WC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\WeatherForecastController.cs 8r	
- !"‚j
-9C:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Program.cs8j
-r	x‚	
+Ú
+IC:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Context\q2ibackendContext.cs$ 8rT	
+!"#$%&'()*+,-.012345789:;<=>?@ABCDFGHIJKMNOPQRSTUVWYZ\]^‚.!#$%&'()*+,-023479:;<=>?@ABCFHIJMOPQRSTUVY[
+<C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Cargo.cs 8r	
+‚
+a
+>C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Empresa.cs 8r	
+‚
+a
+?C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Endereco.cs 8r	
+‚
+f
+BC:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Funcionario.cs 8r	
+‚
+_
+?C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Telefone.cs 	8	r	
+‚
+V
+>C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Usuario.cs 8r	
+
