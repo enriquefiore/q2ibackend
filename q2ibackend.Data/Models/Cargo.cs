@@ -10,7 +10,7 @@ namespace q2ibackend.Data.Models
             Funcionarios = new HashSet<Funcionario>();
         }
 
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string? Titulo { get; set; }
 
         public virtual ICollection<Funcionario> Funcionarios { get; set; }

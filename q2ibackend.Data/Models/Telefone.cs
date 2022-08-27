@@ -10,9 +10,9 @@ namespace q2ibackend.Data.Models
             Empresas = new HashSet<Empresa>();
         }
 
-        public long Id { get; set; }
-        public long? Numero { get; set; }
-        public long? Ddd { get; set; }
+        public int Id { get; set; }
+        public int? Numero { get; set; }
+        public int? Ddd { get; set; }
 
         public virtual ICollection<Empresa> Empresas { get; set; }
     }
