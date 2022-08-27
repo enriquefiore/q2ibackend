@@ -1,0 +1,8 @@
+﻿C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Context\q2ibackendContext.cs
+C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Cargo.cs
+C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Empresa.cs
+C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Endereco.cs
+C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Funcionario.cs
+C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Telefone.cs
+C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Usuario.cs
+C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\WeatherForecast.cs

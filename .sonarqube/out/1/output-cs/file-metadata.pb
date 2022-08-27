@@ -1,0 +1,12 @@
+R
+IC:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Context\q2ibackendContext.csutf-8E
+<C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Cargo.csutf-8G
+>C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Empresa.csutf-8H
+?C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Endereco.csutf-8K
+BC:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Funcionario.csutf-8H
+?C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Telefone.csutf-8G
+>C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\Usuario.csutf-8O
+FC:\dev\docker\q2i\q2ibackend\q2ibackend.Data\Models\WeatherForecast.csutf-8j
+_C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\obj\Debug\net6.0\q2ibackend.Data.GlobalUsings.g.csutf-8w
+lC:\dev\docker\q2i\q2ibackend\q2ibackend.Data\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8h
+]C:\dev\docker\q2i\q2ibackend\q2ibackend.Data\obj\Debug\net6.0\q2ibackend.Data.AssemblyInfo.csutf-8

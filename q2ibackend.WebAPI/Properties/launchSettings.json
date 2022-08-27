@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "q2ibackend.WebAPI": {
+    "q2ibackend-local": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -18,6 +18,29 @@
       },
       "applicationUrl": "https://localhost:7233;http://localhost:5233",
       "dotnetRunMessages": true
+    },
+    "q2ibackend-dev": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchUrl": "swagger",
+      "launchBrowser": true,
+      "applicationUrl": "https://q2ibackend-dev.azurewebsites.net",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "dev",
+        "ASPNETCORE_DETAILEDERRORS": "1",
+        "ASPNETCORE_SHUTDOWNTIMEOUTSECONDS": "3"
+      }
+    },
+    "q2ibackend-hml": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://q2ibackend-hml.azurewebsites.net/",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "hml",
+        "ASPNETCORE_DETAILEDERRORS": "1",
+        "ASPNETCORE_SHUTDOWNTIMEOUTSECONDS": "3"
+      }
     },
     "IIS Express": {
       "commandName": "IISExpress",
