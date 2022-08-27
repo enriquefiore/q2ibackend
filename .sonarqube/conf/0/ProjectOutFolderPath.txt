@@ -1,0 +1,1 @@
+C:\dev\docker\q2i\q2ibackend\.sonarqube\out\0

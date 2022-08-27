@@ -1,0 +1,12 @@
+Y
+PC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\EmpresasController.csutf-8Z
+QC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\EnderecosController.csutf-8]
+TC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\FuncionariosController.csutf-8Z
+QC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\TelefonesController.csutf-8Y
+PC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\UsuariosController.csutf-8`
+WC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Controllers\WeatherForecastController.csutf-8B
+9C:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\Program.csutf-8n
+cC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\obj\Debug\net6.0\q2ibackend.WebAPI.GlobalUsings.g.csutf-8y
+nC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8l
+aC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\obj\Debug\net6.0\q2ibackend.WebAPI.AssemblyInfo.csutf-8
+tC:\dev\docker\q2i\q2ibackend\q2ibackend.WebAPI\obj\Debug\net6.0\q2ibackend.WebAPI.MvcApplicationPartsAssemblyInfo.csutf-8
