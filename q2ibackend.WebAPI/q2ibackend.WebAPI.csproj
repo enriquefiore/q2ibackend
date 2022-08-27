@@ -44,4 +44,12 @@
     <ProjectReference Include="..\q2ibackend.Data\q2ibackend.Data.csproj" />
   </ItemGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="sonarscanner begin /k:&quot;enriquefiore_q2ibackend_AYLcrx-DPLKANltBhq4C&quot; /d:sonar.login=&quot;sqp_9511273948593f014ef0d89a2792aeca73f84913&quot;" />
+  </Target>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="sonarscanner end /d:sonar.login=&quot;sqp_9511273948593f014ef0d89a2792aeca73f84913&quot;" />
+  </Target>
+
 </Project>
